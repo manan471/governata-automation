@@ -1,0 +1,28 @@
+databases:
+  sqlserver:
+    host: "34.59.121.78"
+    port: 1433
+    database: "QadeerTestDB"
+    username: "sa"
+    password: "YourStrong!Passw0rd1"
+
+  mysql:
+    host: "139.162.52.170"
+    port: 3306
+    database: "test_connectors_db"
+    username: "wasif"
+    password: "wasif@123"
+
+  postgres:
+    host: "aws-1-ap-southeast-1.pooler.supabase.com"
+    port: 6543
+    database: "postgres"
+    username: "postgres.naycceiapqkdglxcagtn"
+    password: "Qwerty11223344@"
+
+  oracle:
+    host: "34.59.121.78"
+    port: 1521
+    database: "ORCLPDB1"
+    username: "hr"
+    password: "hr123"
