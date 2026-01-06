@@ -172,7 +172,7 @@ class Governata(unittest.TestCase):
         self.step("Enter Description", bg.Enter_Descp)
         time.sleep(1)
         self.step("Click Next", bg.Click_NextBtn)
-        time.sleep(1)
+        time.sleep(2)
 
         assert bg.DetectServiceCatalogPage(), "Attributes page not opened"
         time.sleep(2)
