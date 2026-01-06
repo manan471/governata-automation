@@ -174,6 +174,7 @@ class Governata(unittest.TestCase):
         bg.Enter_Maximum_Expected_Value()
         bg.Enter_Baseline_Year()
         bg.Enter_Baseline_Value()
+        time.sleep(1)
         bg.Enter_Baseline_Unit()
         bg.Enter_Unit_of_Measure()
         bg.Enter_Target()
